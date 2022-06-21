@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    width: 100vw;
+    color: black;
+    font-weight: bold;
+    background-color: green;
+}
+
+address {
+    margin: 2rem 2rem;
+}
+
+.sessao {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.sessao__imagem {
+    width: 20%;
+    margin: 1rem 1rem;
+}
+
+.sessao__titulo {
+    margin: 1rem 1rem;
+    font-size: 3rem;
+}
+
+.sessao__texto {
+    font-size: 1rem;
+    font-weight: bold;
+}

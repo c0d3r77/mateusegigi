@@ -1,0 +1,58 @@
+.formulario {
+
+    margin: 0 0.2rem;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+
+
+    border-bottom: 1px solid var(--borda-cabecalho-mobile);
+
+}
+
+fieldset, legend {
+    margin-bottom: 0.5rem;
+}
+
+select {
+    margin-bottom: 1rem;
+}
+
+textarea {
+    resize: none;
+    width: auto;
+}
+
+.limpar {
+    border-style: solid;
+    border-radius: 5px;
+    padding: 0.2rem;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+}
+
+.limpar:hover {
+    background-color: darkred;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.enviar {
+        border-style: solid;
+        border-radius: 5px;
+        padding: 0.2rem;
+        color: white;
+        font-weight: bold;
+        background-color: green;
+}
+
+.enviar:hover {
+    background-color: darkgreen;
+    text-transform: uppercase;
+    cursor: pointer;
+}

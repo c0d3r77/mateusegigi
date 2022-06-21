@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gigi e Mateus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/chamada.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/rodape.css">
+</head>
+<body>
+    <header class="cabecalho container">
+        <img src="img/logo.svg" alt="Logo Gigi e Mateus" class="cabecalho__logo">
+        <nav class="cabecalho__navegacao">
+            <ul>
+                <li class="cabecalho__link"><a href="index.html">Home</a></li>
+                <li class="cabecalho__link"><a href="planos.html">Planos</a></li>
+                <li class="cabecalho__link"><a href="blog.html">Blog</a></li>
+                <li class="cabecalho__link"><a href="sobre.html">Sobre</a></li>
+                <li class="cabecalho__link"><a href="contato.html">Contato</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Curioso?</button>
+                        <div class="dropdown-content">
+                            <a href="#" onclick="fechar_janela();return false;">Siga por aqui...</a>
+                        </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="sobre container">
+            <div class="sobre__conteudo">
+                <h2 class="sobre__titulo">Sobre</h2>
+                <p class="sobre__texto">Te ajudamos a se relacionar melhor com <strong class="sobre__texto--destaque">todas as pessoas</strong>!</p>
+                <p class="sobre__texto">
+                    E não precisa se preocupar de qual plataforma irá acessar o curso. Com apenas uma assinatura você poderá acessar a nossa plataforma de ensino através de diversos dispositivos!
+                </p>
+                <p class="sobre__texto sobre__texto--destaque sobre__texto--divisao">
+                    Nossa equipe de suporte pode te ajudar a acessar e configurar a plataforma em diversos dispositivos.
+                </p>
+                <ul class="sobre__plataformas">
+                    <li><img src="img/android.png" alt="Ícone do Android"></li>
+                    <li><img src="img/blackberry.png" alt="Ícone da Blackberry"></li>
+                    <li><img src="img/apple.png" alt="Ícone da Apple"></li>
+                    <li><img src="img/windowsphone.png" alt="Ícone da Microsoft"></li>
+                </ul>
+                <p class="sobre__texto">Adquira já e seja mais feliz! Nossos métodos vieram da NASA, é coisa de ET!</p>
+            </div>
+            <img src="img/sobregigimateus.png" alt="Sobre Gigi e Mateus" class="sobre__imagem">
+            
+    </main>
+
+    <footer class="rodape container">
+        <img src="img/logo.svg" alt="Logo Gigi e Mateus" class="rodape__logo">
+        <ul class="rodape__social">
+            <li><a href="#" class="rodape__midia"><img src="img/facebook.png" alt="Ícone do Facebook"></a></li>
+            <li><a href="#" class="rodape__midia"><img src="img/twitter.png" alt="Ícone do Twitter"></a></li>
+            <li><a href="#" class="rodape__midia"><img src="img/instagram.png" alt="Ícone do Instagram"></a></li>
+        </ul>
+        <nav>
+            <ul class="rodape__navegacao">
+                <li class="rodape__link"><a href="index.html">Home</a></li>
+                <li class="rodape__link"><a href="planos.html">Planos</a></li>
+                <li class="rodape__link"><a href="blog.html">Blog</a></li>
+                <li class="rodape__link"><a href="sobre.html">Sobre</a></li>
+                <li class="rodape__link"><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="script/teste.js"></script>    
+</body>
+</html>

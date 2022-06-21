@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gigi e Mateus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/chamada.css">
+    <link rel="stylesheet" href="css/destaques.css">
+    <link rel="stylesheet" href="css/rodape.css">
+</head>
+<body>
+    <header class="cabecalho container">
+        <img src="img/logo.svg" alt="Logo Gigi e Mateus" class="cabecalho__logo">
+        <nav class="cabecalho__navegacao">
+            <ul>
+                <li class="cabecalho__link"><a href="index.html">Home</a></li>
+                <li class="cabecalho__link"><a href="planos.html">Planos</a></li>
+                <li class="cabecalho__link"><a href="blog.html">Blog</a></li>
+                <li class="cabecalho__link"><a href="sobre.html">Sobre</a></li>
+                <li class="cabecalho__link"><a href="contato.html">Contato</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Curioso?</button>
+                        <div class="dropdown-content">
+                          <a href="#" onclick="fechar_janela();return false;">Siga por aqui...</a>
+                        </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="chamada container">
+            <h1 class="chamada__titulo">Gigi e Mateus</h1>
+            <p class="chamada__texto">Giorjety e Mateus inovaram desenvolvendo um workshop que ensina a como obter o melhor em seus relacionamentos interpessoais.</p>
+            <a href="sobre.html" class="chamada__botao botao">Conheça o Workshop</a>
+        </section>
+
+        <section class="destaques container">
+            <h2 class="destaques__titulo">Criadores</h2>
+            <a href="#">
+                <figure class="destaques__painel">
+                    <img src="img/giorjety.jpg" alt="Foto da Giorjety" class="destaques__painel-imagem">
+                    <figcaption class="destaques__painel-texto">❤️ Giorjety ❤️</br>Professora e praticante da vida 🤸‍♀️ fitness 🏋️‍♀️</figcaption>
+                </figure>
+            </a>
+            <a href="#">
+                <figure class="destaques__painel">
+                    <img src="img/mateus.png" alt="Foto do Mateus" class="destaques__painel-imagem">
+                    <figcaption class="destaques__painel-texto">👽 Mateus 👽</br>Doidão segundo a Gigi...</figcaption>
+                </figure>
+            </a><a href="#" class="destaques__botao botao">Receber novidades por email</a>
+        </section>
+
+    </main>
+
+    <footer class="rodape container">
+        <img src="img/logo.svg" alt="Logo Gigi e Mateus" class="rodape__logo">
+        <ul class="rodape__social">
+            <li><a href="#" class="rodape__midia"><img src="img/facebook.png" alt="Ícone do Facebook"></a></li>
+            <li><a href="#" class="rodape__midia"><img src="img/twitter.png" alt="Ícone do Twitter"></a></li>
+            <li><a href="#" class="rodape__midia"><img src="img/instagram.png" alt="Ícone do Instagram"></a></li>
+        </ul>
+        <nav>
+            <ul class="rodape__navegacao">
+                <li class="rodape__link"><a href="index.html">Home</a></li>
+                <li class="rodape__link"><a href="planos.html">Planos</a></li>
+                <li class="rodape__link"><a href="blog.html">Blog</a></li>
+                <li class="rodape__link"><a href="sobre.html">Sobre</a></li>
+                <li class="rodape__link"><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="script/teste.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gigi e Mateus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/chamada.css">
+    <link rel="stylesheet" href="css/destaques.css">
+    <link rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="css/planos.css">
+</head>
+<body>
+    <header class="cabecalho container">
+        <img src="img/logo.svg" alt="Logo Gigi e Mateus" class="cabecalho__logo">
+        <nav class="cabecalho__navegacao">
+            <ul>
+                <li class="cabecalho__link"><a href="index.html">Home</a></li>
+                <li class="cabecalho__link"><a href="planos.html">Planos</a></li>
+                <li class="cabecalho__link"><a href="blog.html">Blog</a></li>
+                <li class="cabecalho__link"><a href="sobre.html">Sobre</a></li>
+                <li class="cabecalho__link"><a href="contato.html">Contato</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Curioso?</button>
+                        <div class="dropdown-content">
+                            <a href="#" onclick="fechar_janela();return false;">Siga por aqui...</a>
+                        </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="planos container">
+            <h2 class="planos__titulo">Planos</h2>
+            <ul class="planos__cartoes">
+                <li class="cartao cartao--start">
+                    <h3 class="cartao__titulo">Start</h3>
+                    <article class="cartao__conteudo">
+                        <p class="cartao__preco"><em>R$ 2000</em></p>
+                        <p class="cartao__texto">Acesso a plataforma com o curso gravado</p>
+                        <p class="cartao__texto">Acesso via navegador</p>
+                        <p class="cartao__texto">30 minutos uma vez por mês com a Gigi e o Mateus</p>
+                        <a href="planos.html" class="cartao__botao cartao__botao--start botao">Assinar plano</a>
+                    </article>
+                </li>
+                <li class="cartao cartao--ultra">
+                    <h3 class="cartao__titulo">Ultra</h3>
+                    <article class="cartao__conteudo">
+                        <p class="cartao__preco"><em>R$ 5000</em></p>
+                        <p class="cartao__texto">Acesso a plataforma com o curso gravado + atualizações e material exclusivo</p>
+                        <p class="cartao__texto">Aplicativo Android + IOS</p>
+                        <p class="cartao__texto">4 mentorias de 30 minutos com a Gigi e o Mateus</p>
+                        <p class="cartao__texto">24h de atendimento</p>
+                        <a href="" class="cartao__botao cartao__botao--ultra botao">Assinar plano</a>
+                    </article>
+                </li>
+                <li class="cartao cartao--mega">
+                    <h3 class="cartao__titulo">Mega</h3>
+                    <p class="cartao__preco"><em>R$ 3500</em></p>
+                    <article class="cartao__conteudo">
+                        <p class="cartao__texto">Acesso a plataforma com o curso gravado + 1 atualização</p>
+                        <p class="cartao__texto">Aplicativo Android</p>
+                        <p class="cartao__texto">12h de atendimento</p>
+                        <a href="" class="cartao__botao cartao__botao--mega botao">Assinar plano</a>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer class="rodape container">
+        <img src="img/logo.svg" alt="Logo Gigi e Mateus" class="rodape__logo">
+        <ul class="rodape__social">
+            <li><a href="#" class="rodape__midia"><img src="img/facebook.png" alt="Ícone do Facebook"></a></li>
+            <li><a href="#" class="rodape__midia"><img src="img/twitter.png" alt="Ícone do Twitter"></a></li>
+            <li><a href="#" class="rodape__midia"><img src="img/instagram.png" alt="Ícone do Instagram"></a></li>
+        </ul>
+        <nav>
+            <ul class="rodape__navegacao">
+                <li class="rodape__link"><a href="index.html">Home</a></li>
+                <li class="rodape__link"><a href="planos.html">Planos</a></li>
+                <li class="rodape__link"><a href="blog.html">Blog</a></li>
+                <li class="rodape__link"><a href="sobre.html">Sobre</a></li>
+                <li class="rodape__link"><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="script/teste.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gigi e Mateus</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/cabecalho.css">
+        <link rel="stylesheet" href="css/chamada.css">
+        <link rel="stylesheet" href="css/sobre.css">
+        <link rel="stylesheet" href="css/formulario.css">
+        <link rel="stylesheet" href="css/rodape.css">
+    </head>
+    <body>
+        <header class="cabecalho container">
+            <img src="img/logo.svg" alt="Logo Gigi e Mateus" class="cabecalho__logo">
+            <nav class="cabecalho__navegacao">
+                <ul>
+                    <li class="cabecalho__link">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="cabecalho__link">
+                        <a href="planos.html">Planos</a>
+                    </li>
+                    <li class="cabecalho__link">
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li class="cabecalho__link">
+                        <a href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="cabecalho__link">
+                        <a href="contato.html">Contato</a>
+                    </li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Curioso?</button>
+                        <div class="dropdown-content">
+                            <a href="#" onclick="fechar_janela();return false;">Siga por aqui...</a>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="sobre container">
+                <div class="sobre__conteudo">
+                    <h2 class="sobre__titulo">Entre em contato</h2>
+                    <form class="formulario">
+                        <label for="nomef">Nome</label>
+                        <input type="text" id="nomef" name="nomef" class="input-padrao" required placeholder="Mateus  O Milior"></br>
+
+                    <label for="emailf">Email</label>
+                    <input type="email" id="emailf" name="emailf" class="input-padrao" required placeholder="seuemail@dominio.com"></br>
+
+                <label for="telefonef">Telefone</label>
+                <input type="tel" id="telefonef" name="telefonef" class="input-padrao" required placeholder="(XX) XXXXX-XXXX"></br>
+
+            <label for="mensagemf">Mensagem</label>
+        </br>
+        <textarea cols="70" rows="7" id="mensagemf" name="mensagemf" class="input-padrao" required placeholder="Mensagem para Mateus O Milior..."></textarea>
+    </body>
+</html></br><fieldset>
+<legend>Como prefere o nosso contato?</legend>
+<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">
+    Email</label>
+
+<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">
+    Telefone</label>
+
+<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
+    WhatsApp</label></fieldset><fieldset>
+<legend>Qual horário prefere ser atendido?</legend>
+<select>
+    <option>Manhã</option>
+    <option>Tarde</option>
+    <option>Noite</option>
+</select>
+</fieldset>
+<input type="button" value="Enviar" onclick="EnviarMensagem()"/></br>
+<!-- <input type="submit" value="Enviar formulário" class="enviar" onclick="EnviarMensagem()"></br> -->
+<input type="reset" value="Limpar" class="limpar"></br>
+
+<h1>Confirmação dos dados Cadastrados</h1></br>
+		<label for="nomec">Nome: </label>
+		<label id="nomec"></label><br>
+		<label for="telefonec">Telefone: </label>
+		<label id="telefonec"></label><br>
+		<label for="emailc">Email: </label>
+		<label id="emailc"></label><br>
+		<label for="mensagemc">Mensagem: </label>
+		<label id="mensagemc"></label><br>
+
+</form>
+</div>
+<img src="img/sobregigimateus.png" alt="Sobre Gigi e Mateus" class="sobre__imagem">
+</main>
+<footer class="rodape container">
+    <img src="img/logo.svg" alt="Logo Gigi e Mateus" class="rodape__logo">
+    <ul class="rodape__social">
+        <li><a href="#" class="rodape__midia"><img src="img/facebook.png" alt="Ícone do Facebook"></a></li>
+        <li><a href="#" class="rodape__midia"><img src="img/twitter.png" alt="Ícone do Twitter"></a></li>
+        <li><a href="#" class="rodape__midia"><img src="img/instagram.png" alt="Ícone do Instagram"></a></li>
+    </ul>
+    <nav>
+        <ul class="rodape__navegacao">
+            <li class="rodape__link"><a href="index.html">Home</a></li>
+            <li class="rodape__link"><a href="planos.html">Planos</a></li>
+            <li class="rodape__link"><a href="blog.html">Blog</a></li>
+            <li class="rodape__link"><a href="sobre.html">Sobre</a></li>
+            <li class="rodape__link"><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+</footer>
+
+<script src="script/cadastrar.js"></script>
+<script src="script/teste.js"></script>
+</body>
+</html>
